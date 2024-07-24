@@ -1,0 +1,72 @@
+.men{
+    font-family: myfont; 
+}
+@font-face {
+    font-family:myfont ;
+    src: url(SnowForSanta.ttf);
+}
+
+.item {
+    text-align: center; /* Center align text within each item */
+    padding: 25px; 
+    position: relative;
+    cursor: pointer;
+}
+.rup {
+    font-size: 1.2rem;
+    background-color: rgb(214, 151, 79);
+    border-style: solid;
+    border-radius: 50%;
+     /* Adjust the font size as needed */
+   
+}
+.tick {
+    position: absolute;
+    display: none;
+}
+.nood {
+    margin-bottom: 10px;
+    border-style: solid;
+    border-radius: 50%;
+   height: 200px;
+   width: 250px;
+   border-color: aliceblue;
+}
+.one {
+    font-size: 1rem;
+    border-style: solid; /* Adjust the font size as needed */
+    background-color:rgb(214, 151, 79) ;
+    box-shadow: 0 0 5px 2px #221e1e;
+}
+
+@media (max-width: 575.98px) {
+    #ban{
+        height:150px;
+
+    }
+}
+
+
+.card{
+    border-width: 3px;
+    width: 300px;
+}
+
+
+#ptpic{
+    border-style: solid;
+    border-radius: 50%;
+   height: 100px;
+   width: 120px;
+   border-color: aliceblue;
+   display: none;
+}
+.det{
+    padding: 6px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+.tot{
+    background-color:  rgb(16, 209, 199);
+}
